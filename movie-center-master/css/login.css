@@ -1,0 +1,19 @@
+.form-wrapper{
+    max-width: 380px;
+    width: 40%;
+    background: #ffffff;
+    min-width: 300px;
+    padding: 2%;
+    border-radius: 6px;
+    box-shadow: 0px 7px 25px rgba(0, 0, 0, .16)
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../images/background-login-register.jpg') no-repeat center center;
+    background-size: cover;
+}
+

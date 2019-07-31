@@ -1,0 +1,75 @@
+.item1 { grid-area: item1; }
+.item2 { grid-area: item2; }
+.item3 { grid-area: item3; }
+.item4 { grid-area: item4; }
+.item5 { grid-area: item5; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas:   
+      'item1 item1 item1 item2 item2 item2'
+      'item1 item1 item1 item2 item2 item2'
+      'item1 item1 item1 item2 item2 item2'
+      'item1 item1 item1 item2 item2 item2'
+      'item1 item1 item1 item3 item3 item3'
+      'item1 item1 item1 item3 item3 item3'
+      'item1 item1 item1 item3 item3 item3'
+      'item1 item1 item1 item4 item4 item4'
+      'item1 item1 item1 item5 item5 item5';
+  background: #292A3C;
+  height: 100vh;
+} 
+
+.grid-item {
+  background-color:#292A3C;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+  font-size: 16px;
+}
+
+#poster-img{
+  height: 528px;
+  width: 396px;
+}
+
+.addfilm-button{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.post-film-form{
+  background: #292A3C;
+}
+
+.name-film{
+  display: flex;
+  justify-content: space-between;
+}
+
+#name{
+  width: 396px;
+}
+
+.trailer-content-actors{
+  display: grid;
+}
+
+#content{
+  height: 117px;
+}
+
+.director-time-imbd-rotten{
+  display: flex;
+  justify-content: space-between;
+}
+
+.item3{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-item-cb{
+  display: flex;
+}
