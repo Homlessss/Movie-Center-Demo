@@ -2,9 +2,9 @@ components.adminPostFilmScreen = `
 <section>
     <form action="" class="post-film-form" id="post-film-form">
         <div class="grid-container">
-            <aside class="poster-img grid-item item1 ">
-                <input type="file" id="poster-img">
-                <img src="" alt="" id="preview-poster-img">
+            <aside class="poster-img ">
+                <input class="choose-img" type="file" id="poster-img" capture style="">
+                <img src="../images/baseline-insert_photo-24px.svg" alt="" id="preview-poster-img" style="cursor:pointer">
             </aside>
             <article>
                 <section class="grid-item item2 item-2">
@@ -15,7 +15,7 @@ components.adminPostFilmScreen = `
                     </div>
                     <div class="trailer-content-actors">
                         <input type="url" name="trailerURL" placeholder="Trailer URL">
-                        <input id="content" type="text" name="plot" placeholder="Nội dung">
+                        <textarea class="content" rows="6" cols="99" placeholder="Nội dung"></textarea>
                         <input type="text" name="starring" placeholder="Diễn viên">
                     </div>
                     <div class="director-time-imbd-rotten">
